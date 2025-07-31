@@ -171,7 +171,7 @@
                                                     AlpineJS
                                                 </button>
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Bootstrap
+                                                    Bootstrap CSS
                                                 </button>
                                             </div>
                                         </div>
@@ -234,7 +234,40 @@
                                                     AlpineJS
                                                 </button>
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Bootstrap
+                                                    Bootstrap CSS
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="mt-8">
+                            <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes">
+                                <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
+                                    <div class="flex">
+                                        <div class="pr-8">
+                                            <img class="h-32 w-128" src="{{ asset('storage/claires-recipes.PNG') }}" alt="claires-recipes.uk">
+                                        </div>
+                                        <div>
+                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">ITIL Helpdesk Software</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <div class="flex mt-4">
+                                                <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    PHP
+                                                </button>
+                                                <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    Laravel
+                                                </button>
+                                                <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    Livewire
+                                                </button>
+                                                <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    AlpineJS
+                                                </button>
+                                                <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    Tailwind CSS
                                                 </button>
                                             </div>
                                         </div>
