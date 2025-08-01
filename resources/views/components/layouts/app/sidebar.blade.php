@@ -215,7 +215,7 @@
                                 <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                     <div class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/claires-recipes.PNG') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 w-128" src="{{ asset('storage/danska.PNG') }}" alt="claires-recipes.uk">
                                         </div>
                                         <div>
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Danska Property Services</h3>
@@ -275,6 +275,71 @@
                                 </div>
                             </a>
                         </div>
+
+                        <h4 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h4>
+                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
+                                <div x-data class="flex">
+                                        <div class="pr-8">
+                                            <img class="h-32 w-128" src="{{ asset('storage/powershell.PNG') }}" alt="claires-recipes.uk">
+                                        </div>
+                                        <div>
+                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <button class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    Show Code
+                                            </button>
+                                        </div>
+                                    </div>
+
+                            </div>
+
+                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
+                                <div x-data class="flex">
+                                        <div class="pr-8">
+                                            <img class="h-32 w-128" src="{{ asset('storage/powershell.PNG') }}" alt="claires-recipes.uk">
+                                        </div>
+                                        <div>
+                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <button x-on:click="alert('Hello World!')"class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    Show Code
+                                            </button>
+                                        </div>
+                                    </div>
+
+                            </div>
+
+                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md w-full">
+                                <div x-data class="flex">
+                                        <div class="pr-8">
+                                            <img class="h-32 w-128" src="{{ asset('storage/powershell.PNG') }}" alt="powershell">
+                                        </div>
+                                        <div>
+                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Get Software Uninstall String From the Registry</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+
+                                            <flux:modal.trigger name="edit-profile">
+                                                <button class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                                                    Show Code
+                                            </button>
+                                            </flux:modal.trigger>
+                                            <flux:modal name="edit-profile" size="xl">
+                                                <div class="space-y-6">
+                                                    <div>
+                                                        <flux:heading size="lg">Get Software Uninstall String From the Registry</flux:heading>
+                                                    </div>
+                                                    <pre>
+                                                    <code>
+
+
+                                                    </code>
+                                                    </pre>
+                                                </div>
+                                            </flux:modal>
+                                        </div>
+                                    </div>
+
+                            </div>
                     </section>
                 </main>
             </div>
