@@ -18,7 +18,7 @@
                     <div>
                         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl dark:text-slate-300 text-slate-600"><a href="/">Kevin Wilson</a></h1>
                         <h2 class="mt-3 text-lg font-medium tracking-tight dark:text-slate-50 text-slate-600" sm:text-xl ">Multi disciplined IT Professional</h2>
-                        <p class="mt-4 max-w-xs leading-normal">Blah blah blah blah blah.</p>
+                        <p class="mt-4 max-w-xs leading-normal">A passion for IT.</p>
                         <nav class="nav hidden lg:block" aria-label="In-page jump links">
                             <ul class="mt-16 w-max">
                                 <li>
@@ -81,66 +81,127 @@
                     </div>
                 </header>
                 <main id="content" class="py-12 lg:pt-24 lg:w-2/3">
-                    <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
+                    <section id="about" class="mb-16 scroll-mt-16 md:mb-16 lg:mb-12 lg:scroll-mt-24" aria-label="About me">
                         <h3 class="text-2xl font-bold py-4 dark:text-slate-300 text-slate-600">About me</h3>
-                        <div>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi porro ducimus, amet totam labore error aliquam sed laboriosam magnam? Animi sequi suscipit ratione rerum dicta repellat recusandae accusantium cum ducimus.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quidem impedit rerum consectetur porro perspiciatis non repellat ea, quos cumque officia mollitia dignissimos provident ducimus perferendis placeat ipsum, ut recusandae!
+                        <div class="text-slate-300">
+                            <p>I'm a versatile, multi-disciplined IT professional with a genuine passion for technology and a strong interest in coding and scripting. My career has given me hands-on experience across technical support, systems administration, networking, and web development, allowing me to approach challenges with both breadth and depth.</p>
+                            <p class="mt-4">Starting from 1st line and progressing through to 3rd line support, I've consistently helped users and businesses stay productive by resolving technical issues efficiently and empathetically. I’ve also improved workflows through automation and scripting, using tools like PowerShell and Python, and by developing custom applications tailored to specific needs</p>
+                            <p class="mt-4">My background includes working confidently across both Windows Server and Linux environments, managing hybrid infrastructures, and supporting enterprise tools such as Office 365 and Active Directory. I bring a developer’s mindset to IT operations, having built web applications using PHP with Laravel, JavaScript, MySQL, MSSQL, and Python. I’ve also configured and secured networks using Cisco technologies and other vendor solutions, ensuring robust and reliable connectivity.</p>
+                            <p class="mt-4">Recently, I completed a 12-week instructor-led training course focused on building scalable solutions on AWS, and I’m currently preparing to earn the AWS Certified Cloud Practitioner certification. This experience has deepened my understanding of cloud architecture and expanded my ability to deliver modern, scalable solutions.</p>
+                            <p class="mt-4">Whether it's automating workflows, optimizing performance, or troubleshooting complex systems, I thrive on solving problems and making technology work smarter. I approach every challenge with curiosity, creativity, and a commitment to continuous improvement.</p>
                         </div>
                     </section>
 
-                    <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="experience">
+                    <section id="experience" class="mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4" aria-label="experience">
                         <h3 class="text-2xl font-bold mb-4 dark:text-slate-300 text-slate-600">Experience</h3>
                         <ul>
                             <li class="mt-12">
                                 <div class="flex">
-                                    <div class="w-1/3">June 2012 - April 2014</div>
-                                    <div class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">June 2025 - Sept 2025</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">AWS Cloud Practitioner Intern, Primed Talent</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
+                                    </div>
+                                </div>
+                            </li>
+
+                             <li class="mt-12">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">July 2025 - April 2025</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">Group Facilitator, Neraf</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
                                     </div>
                                 </div>
                             </li>
 
                             <li class="mt-12">
                                 <div class="flex">
-                                    <div class="w-1/3">June 2012 - April 2014</div>
-                                    <div class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">April 2021 - Jan 2023</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">Systems Administrator, EC Outsourcing</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
                                     </div>
                                 </div>
                             </li>
 
                             <li class="mt-12">
                                 <div class="flex">
-                                    <div class="w-1/3">June 2012 - April 2014</div>
-                                    <div class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">March 2020 - June 2022</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">IT Engineer , Proctor & Gamble</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
                                     </div>
                                 </div>
                             </li>
 
                             <li class="mt-12">
                                 <div class="flex">
-                                    <div class="w-1/3">June 2012 - April 2014</div>
-                                    <div class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">November 2018 - January 2020</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">IT Engineer, Npower</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
                                     </div>
                                 </div>
                             </li>
 
                             <li class="mt-12">
                                 <div class="flex">
-                                    <div class="w-1/3">June 2012 - April 2014</div>
-                                    <div class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">Sept 2018 - Nov 2018</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">IT Engineer (contract), Compter Center</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
                                     </div>
                                 </div>
                             </li>
 
                             <li class="mt-12">
                                 <div class="flex">
-                                    <div class="w-1/3">June 2012 - April 2014</div>
-                                    <div class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">Oct 2017 - March 2018</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">IT Support Engineer(contract), NHS</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
                                     </div>
                                 </div>
                             </li>
 
+                            <li class="mt-12">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">March 2014 - March 2017</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">IT Technician\Service Desk Analyst, Parmley Graham LTD</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
+                                    </div>
+                                </div>
+                            </li>
 
+                            <li class="mt-12">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <div class="text-slate-300">November 2013 - January 2014</div>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <div class="font-bold text-lg text-white">IT Technician, SCS LTD</div>
+                                        <div class="text-slate-300 mt-4">Lorem ipsum dolor st amet consectetur adipisicing elit. Ad exercitationem veniam perspiciatis explicabo quasi necessitat ibus accusantium vitae eum id repudiandae, ratione at harum fugit, impedit sint quisquam quis, doloremque natus?</div>
+                                    </div>
+                                </div>
+                            </li>
 
                         </ul>
                     </section>
