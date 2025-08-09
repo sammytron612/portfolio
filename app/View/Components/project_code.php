@@ -10,16 +10,18 @@ class project_code extends Component
 {
     public string $image;
     public string $title;
-    public string $code_snippet;
+    public string $snippet;
+    public string $text
 
     /**
      * Create a new component instance.
      */
-    public function __construct(string $image, string $title, string $code_snippet)
+    public function __construct(string $image, string $title,string $text, string $snippet)
     {
         $this->image = $image;
         $this->title = $title;
-        $this->code_snippet = $code_snippet;
+        $this->text = $text;
+        $this->snippet = $snippet;
     }
 
     /**

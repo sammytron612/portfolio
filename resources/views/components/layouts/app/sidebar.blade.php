@@ -347,7 +347,7 @@
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">ITIL Helpdesk Software</h3>
-                                            <p>This project was developed to design ITIL-compliant ticketing software. It allows users to submit incident reports, with tickets assigned either automatically to agents or manually by administrators. The system also includes an integrated API-driven knowledge base, which can be shared with users via email links or accessed directly by support agents. Real-time browser notifications are enabled through WebSockets, enhancing responsiveness and user engagement. The tech stack for this project includes Laravel, Livewire, MySQL, TailwindCSS, and JavaScript.</p>
+                                            <p>This project was developed to design ITIL-compliant ticketing software. It allows users to submit incidents on IT issues, with tickets assigned either automatically to agents or manually by administrators. The system also includes an integrated API-driven knowledge base, which can be shared with users via email links or accessed directly by support agents. Real-time browser notifications are enabled through WebSockets, enhancing responsiveness and user engagement. The tech stack for this project includes Laravel, Livewire, MySQL, TailwindCSS, and JavaScript.</p>
                                             <div class="flex mt-4">
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     PHP
@@ -371,241 +371,40 @@
                             </a>
                         </div>
 
-                        <h3 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h3>
+                        <h3 class="text-2xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h3>
                         <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo"></div>
 
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md mt-4">
-                                <div x-data class="flex">
-                                        <div class="pr-8">
-                                            <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo">
-                                        </div>
-                                        <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
-                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
-                                            <p class="mb-2">The attached code was used during my time at Parmley Graham. It was used to modify phone numbers in Active dirctory as the country codes were causing a problem with the CRM we were using.</p>
-                                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show PowerShell code for modifying Active Directory phone numbers">
-                                            Show Code
-                                        </button>
-                                            <div
-                                            class="modal"
-                                            role="dialog"
-                                            tabindex="-1"
-                                            x-show="isModalOpen"
-                                            x-on:click.away="isModalOpen = false"
-                                            x-cloak
-                                            x-transition
-                                            >
-                                                <div class="model-inner w-96 md:w-128 mt-2 overflow-auto">
-                                                    <div class="modal-header">
+                            <x-project_code
+                                image="{{ asset('storage/PowerShell.webp') }}"
+                                title="Modify Active Directory Phone Numbers" text="This PowerShell script was developed to modify phone numbers in Active Directory. It automates the process of updating user attributes, ensuring consistency and accuracy across the directory. The script can be customized to target specific user groups or attributes, making it a versatile tool for managing user information in a Windows environment." snippet="phone"
+                            />
 
-                                                        <button aria-label="Close" x-on:click="isModalOpen=false">✖</button>
-                                                    </div>
-                                                    <pre class="language-powershell">
-                                                            <code>
-                                                            @include('components.code_snippets.phone')
-                                                            </code>
-                                                    </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
+                            <x-project_code
+                                image="{{ asset('storage/PowerShell.webp') }}"
+                                title="HTML Server Reports" text="The attached PowerShell script was developed to query remote computers and servers for event log data. It retrieves relevant events and formats the results into an HTML table, making it easier to review and analyze system activity. This approach streamlines log monitoring across multiple machines and enhances readability for support." snippet="server"
+                            />
 
-                            <x-project-code image="{{ asset('storage/PowerShell.webp') }}" title="HTML hjhjh Server Reports" code_snippet="server"/>
+                            <x-project_code
+                                image="{{ asset('storage/PowerShell.webp') }}"
+                                title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
+                            />
 
+                           <h4 class="text-2xl text-left my-8 font-bold dark:text-slate-300 text-slate-600">Python</h4>
+                            <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/python.jpeg') }}" alt="Python logo"></div>
+                                <x-project_code
+                                image="{{ asset('storage/python.jpeg') }}"
+                                title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
+                                />
 
+                                <x-project_code
+                                image="{{ asset('storage/python.jpeg') }}"
+                                title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
+                                />
 
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
-                                <div x-data class="flex">
-                                        <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo">
-                                        </div>
-                                        <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
-                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
-                                            <p>The attached PowerShell script was developed to query remote computers and servers for event log data. It retrieves relevant events and formats the results into an HTML table, making it easier to review and analyze system activity. This approach streamlines log monitoring across multiple machines and enhances readability for support.</p>
-                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show PowerShell code for HTML server reports">
-                            Show Code
-                        </button>
-                                            <div
-                                            class="modal"
-                                            role="dialog"
-                                            tabindex="-1"
-                                            x-show="isModalOpen"
-                                            x-on:click.away="isModalOpen = false"
-                                            x-cloak
-                                            x-transition
-                                            >
-                                                <div class="model-inner w-96 md:w-128 mt-2 bg-white text-black overflow-auto">
-                                                    <div class="modal-header">
-
-                                                        <button aria-label="Close" x-on:click="isModalOpen=false">✖</button>
-                                                    </div>
-                                                    <pre class="language-powershell">
-                                                        <code>
-
-                                                                @include('components.code_snippets.server')
-
-                                                        </code>
-                                                    </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                            </div>
-
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
-                                <div x-data class="flex">
-                                        <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo">
-                                        </div>
-                                        <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
-                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Get Software Uninstall String From the Registry</h3>
-                                            <p>The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device.</p>
-                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show PowerShell code for getting uninstall string from registry">
-                            Show Code
-                        </button>
-                                            <div
-                                            class="modal"
-                                            role="dialog"
-                                            tabindex="-1"
-                                            x-show="isModalOpen"
-                                            x-on:click.away="isModalOpen = false"
-                                            x-cloak
-                                            x-transition
-                                            >
-                                                <div class="model-inner w-96 md:w-128 mt-2 bg-white text-black overflow-auto">
-                                                    <div class="modal-header">
-
-                                                        <button aria-label="Close" x-on:click="isModalOpen=false">✖</button>
-                                                    </div>
-                                                    <pre>
-                                                        <code class="language-powershell">
-
-                                                                @include('components.code_snippets.uninstall')
-
-                                                        </code>
-                                                    </pre>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                            </div>
-
-                           <h4 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Python</h4>
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
-                                <div x-data class="flex">
-                                        <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="Python logo">
-                                        </div>
-                                        <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
-                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
-                                            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
-                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show Python code for modifying Active Directory phone numbers">
-                            Show Code
-                        </button>
-                                            <div
-                                            class="modal"
-                                            role="dialog"
-                                            tabindex="-1"
-                                            x-show="isModalOpen"
-                                            x-on:click.away="isModalOpen = false"
-                                            x-cloak
-                                            x-transition
-                                            >
-                                                <div class="model-inner w-96 md:w-128 mt-2 overflow-auto">
-                                                    <div class="modal-header">
-
-                                                        <button aria-label="Close" x-on:click="isModalOpen=false">✖</button>
-                                                    </div>
-                                                    <pre class="language-powershell">
-                                                            <code>
-                                                            @include('components.code_snippets.phone')
-                                                            </code>
-                                                    </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
-                                <div x-data class="flex">
-                                        <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="Python logo">
-                                        </div>
-                                        <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
-                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
-                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show Python code for HTML server reports">
-                            Show Code
-                        </button>
-                                            <div
-                                            class="modal"
-                                            role="dialog"
-                                            tabindex="-1"
-                                            x-show="isModalOpen"
-                                            x-on:click.away="isModalOpen = false"
-                                            x-cloak
-                                            x-transition
-                                            >
-                                                <div class="model-inner w-96 md:w-128 mt-2 bg-white text-black overflow-auto">
-                                                    <div class="modal-header">
-
-                                                        <button aria-label="Close" x-on:click="isModalOpen=false">✖</button>
-                                                    </div>
-                                                    <pre class="language-powershell">
-                                                        <code>
-
-                                                                @include('components.code_snippets.server')
-
-                                                        </code>
-                                                    </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                            </div>
-
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md w-full">
-                                <div x-data class="flex">
-                                        <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/python.jpeg') }}" alt="Python logo">
-                                        </div>
-                                        <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
-                                            <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Get Software Uninstall String From the Registry</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
-                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show Python code for getting uninstall string from registry">
-                            Show Code
-                        </button>
-                                            <div
-                                            class="modal"
-                                            role="dialog"
-                                            tabindex="-1"
-                                            x-show="isModalOpen"
-                                            x-on:click.away="isModalOpen = false"
-                                            x-cloak
-                                            x-transition
-                                            >
-                                                <div class="model-inner w-96 md:w-128 mt-2 bg-white text-black overflow-auto">
-                                                    <div class="modal-header">
-
-                                                        <button aria-label="Close" x-on:click="isModalOpen=false">✖</button>
-                                                    </div>
-                                                    <pre>
-                                                        <code class="language-powershell">
-
-                                                                @include('components.code_snippets.uninstall')
-
-                                                        </code>
-                                                    </pre>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
+                                <x-project_code
+                                image="{{ asset('storage/python.jpeg') }}"
+                                title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
+                                />
 
                             </div>
 
