@@ -5,24 +5,24 @@
     </head>
 
     <body class="min-h-screen bg-white dark:bg-zinc-800">
-    <div class="w-64 float-right fixed top-0 right-0 z-0">
+    <nav class="w-64 float-right fixed top-0 right-0 z-0" aria-label="Theme switcher">
         <flux:radio.group x-data variant="segmented" x-model="$flux.appearance">
-            <flux:radio value="light" icon="sun"></flux:radio>
-            <flux:radio selected value="dark" icon="moon"></flux:radio>
-            <flux:radio value="system" icon="computer-desktop"></flux:radio>
+            <flux:radio value="light" icon="sun" aria-label="Switch to light mode"></flux:radio>
+            <flux:radio selected value="dark" icon="moon" aria-label="Switch to dark mode"></flux:radio>
+            <flux:radio value="system" icon="computer-desktop" aria-label="Use system theme"></flux:radio>
         </flux:radio.group>
-    </div>
+    </nav>
         <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
             <div class="lg:flex lg:justify-between lg:gap-4">
-                <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24">
+                <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24" role="banner">
                     <div>
-                        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl dark:text-slate-300 text-slate-600"><a href="/">Kevin Wilson</a></h1>
-                        <h2 class="mt-3 text-lg font-medium tracking-tight dark:text-slate-50 text-slate-600" sm:text-xl ">Multi disciplined IT Professional</h2>
+                        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl dark:text-slate-300 text-slate-600"><a href="/" aria-label="Home - Kevin Wilson">Kevin Wilson</a></h1>
+                        <p class="mt-3 text-lg font-medium tracking-tight dark:text-slate-50 text-slate-600" sm:text-xl id="subtitle">Multi disciplined IT Professional</p>
                         <p class="mt-4 max-w-xs leading-normal">A passion for IT.</p>
-                        <nav class="nav hidden lg:block" aria-label="In-page jump links">
+                        <nav class="nav hidden lg:block" aria-label="Main site navigation">
                             <ul class="mt-16 w-max">
                                 <li>
-                                    <a class="group flex items-center py-3" href="#about">
+                                    <a class="group flex items-center py-3" href="#about" aria-current="page">
                                         <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                                         <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
                                     </a>
@@ -41,9 +41,9 @@
                                 </li>
                             </ul>
                         </nav>
-                        <ul class="ml-1 mt-12 flex items-center" aria-label="Social media">
+                        <ul class="ml-1 mt-12 flex items-center" aria-label="Social media links">
                             <li class="list-none mr-5 shrink-0 text-xs">
-                                <a class="block hover:text-slate-200" href="https://github.com/bchiang7" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="[&>svg]:h-5 [&>svg]:w-5">
+                                <a class="block hover:text-slate-200" href="https://github.com/sammytron612" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="[&>svg]:h-5 [&>svg]:w-5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -57,7 +57,7 @@
                             </li>
 
                             <li class="list-none mr-5 shrink-0 text-xs">
-                                <a class="block hover:text-slate-200" href="https://github.com/bchiang7" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#0077b5]">
+                                <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/kevin-wilson-2b878b252/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn"><span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#0077b5]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                         <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
                                         <path
@@ -68,7 +68,7 @@
                             </li>
 
                             <li class="list-none mr-5 shrink-0 text-xs">
-                                <a class="block hover:text-slate-200" href="https://github.com/bchiang7" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#1877f2]">
+                                <a class="block hover:text-slate-200" href="https://github.com/bchiang7" target="_blank" rel="noreferrer noopener" aria-label="Facebook (opens in a new tab)" title="Facebook"><span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#1877f2]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                                         <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
                                         <path
@@ -80,9 +80,9 @@
                         </ul>
                     </div>
                 </header>
-                <main id="content" class="py-12 lg:pt-24 lg:w-2/3">
-                    <section id="about" class="mb-16 scroll-mt-16 md:mb-16 lg:mb-12 lg:scroll-mt-24" aria-label="About me">
-                        <h3 class="text-2xl font-bold py-4 dark:text-slate-300 text-slate-600">About me</h3>
+                <main id="content" class="py-12 lg:pt-24 lg:w-2/3" role="main">
+                    <section id="about" class="mb-16 scroll-mt-16 md:mb-16 lg:mb-12 lg:scroll-mt-24" aria-label="About me" tabindex="-1">
+                        <h2 class="text-2xl font-bold py-4 dark:text-slate-300 text-slate-600">About me</h2>
                         <div class="text-slate-300">
                             <p>I'm a versatile, multi-disciplined IT professional with a genuine passion for technology and a strong interest in coding and scripting. My career has given me hands-on experience across technical support, systems administration, networking, and web development, allowing me to approach challenges with both breadth and depth.</p>
                             <p class="mt-4">Starting from 1st line and progressing through to 3rd line support, I've consistently helped users and businesses stay productive by resolving technical issues efficiently and empathetically. I’ve also improved workflows through automation and scripting, using tools like PowerShell and Python, and by developing custom applications tailored to specific needs</p>
@@ -92,8 +92,8 @@
                         </div>
                     </section>
 
-                    <section id="experience" class="mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4" aria-label="experience">
-                        <h3 class="text-2xl font-bold mb-4 dark:text-slate-300 text-slate-600">Experience</h3>
+                    <section id="experience" class="mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4" aria-label="Experience" tabindex="-1">
+                        <h2 class="text-2xl font-bold mb-4 dark:text-slate-300 text-slate-600">Experience</h2>
                         <ul>
                             <li class="mt-12">
                                 <div class="flex">
@@ -212,15 +212,15 @@
                         </ul>
                     </section>
 
-                    <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="projects">
-                        <h3 class="text-2xl font-bold dark:text-slate-300 text-slate-600">Coding Projects</h3>
-                        <h4 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h4>
+                    <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Projects" tabindex="-1">
+                        <h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600">Coding Projects</h2>
+                        <h3 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>
                         <div class="mt-8">
                             <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes">
                                 <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                     <div class="flex flex-col lg:flex-row">
                                         <div class="md:pr-8">
-                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/claires-recipes.PNG') }}" alt="claires-recipes.uk">
+                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/claires-recipes.PNG') }}" alt="Screenshot of Claire's Recipes website">
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Claire's Recipes</h3>
@@ -253,7 +253,7 @@
                                 <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                     <div class="flex flex-col lg:flex-row">
                                         <div class="md:pr-8">
-                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/aws_dashboard.PNG') }}" alt="claires-recipes.uk">
+                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/aws_dashboard.PNG') }}" alt="Screenshot of AWS Cost Dashboard">
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">AWS Cost Dashboard</h3>
@@ -280,7 +280,7 @@
                                 <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                     <div class="flex flex-col lg:flex-row">
                                         <div class="md:pr-8">
-                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/kb.PNG') }}" alt="claires-recipes.uk">
+                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/kb.PNG') }}" alt="Screenshot of Knowledge Base application">
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Knowledge Base</h3>
@@ -310,7 +310,7 @@
                                 <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                     <div class="flex flex-col lg:flex-row">
                                         <div class="pr-8">
-                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/danska.PNG') }}" alt="claires-recipes.uk">
+                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/danska.PNG') }}" alt="Screenshot of Danska Property Services prototype">
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Danska Property Services</h3>
@@ -343,7 +343,7 @@
                                 <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                     <div class="flex flex-col lg:flex-row">
                                         <div class="pr-8">
-                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/claires-recipes.PNG') }}" alt="claires-recipes.uk">
+                                            <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/claires-recipes.PNG') }}" alt="Screenshot of ITIL Helpdesk Software">
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">ITIL Helpdesk Software</h3>
@@ -371,20 +371,20 @@
                             </a>
                         </div>
 
-                        <h4 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h4>
-                        <div clss="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell"></div>
+                        <h3 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h3>
+                        <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo"></div>
 
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md mt-4">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell">
+                                            <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
                                             <p class="mb-2">The attached code was used during my time at Parmley Graham. It was used to modify phone numbers in Active dirctory as the country codes were causing a problem with the CRM we were using.</p>
-                                            <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Show Code
-                                            </button>
+                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show PowerShell code for modifying Active Directory phone numbers">
+                            Show Code
+                        </button>
                                             <div
                                             class="modal"
                                             role="dialog"
@@ -413,14 +413,14 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
                                             <p>The attached PowerShell script was developed to query remote computers and servers for event log data. It retrieves relevant events and formats the results into an HTML table, making it easier to review and analyze system activity. This approach streamlines log monitoring across multiple machines and enhances readability for support.</p>
-                                            <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Show Code
-                                            </button>
+                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show PowerShell code for HTML server reports">
+                            Show Code
+                        </button>
                                             <div
                                             class="modal"
                                             role="dialog"
@@ -452,14 +452,14 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Get Software Uninstall String From the Registry</h3>
                                             <p>The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device.</p>
-                                            <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Show Code
-                                            </button>
+                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show PowerShell code for getting uninstall string from registry">
+                            Show Code
+                        </button>
                                             <div
                                             class="modal"
                                             role="dialog"
@@ -493,14 +493,14 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="Python logo">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
                                             <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
-                                            <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Show Code
-                                            </button>
+                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show Python code for modifying Active Directory phone numbers">
+                            Show Code
+                        </button>
                                             <div
                                             class="modal"
                                             role="dialog"
@@ -529,14 +529,14 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="Python logo">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
-                                            <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Show Code
-                                            </button>
+                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show Python code for HTML server reports">
+                            Show Code
+                        </button>
                                             <div
                                             class="modal"
                                             role="dialog"
@@ -568,14 +568,14 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md w-full">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/python.jpeg') }}" alt="powershell">
+                                            <img class="h-32 w-128" src="{{ asset('storage/python.jpeg') }}" alt="Python logo">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Get Software Uninstall String From the Registry</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
-                                            <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                                                    Show Code
-                                            </button>
+                        <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded" aria-label="Show Python code for getting uninstall string from registry">
+                            Show Code
+                        </button>
                                             <div
                                             class="modal"
                                             role="dialog"
