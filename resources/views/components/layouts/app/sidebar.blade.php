@@ -127,7 +127,7 @@
                                     <div class="w-2/3">
                                         <div class="font-bold text-lg text-white">Systems Administrator, EC Outsourcing</div>
                                         <div class="text-slate-300 mt-4">
-                                            <p>I designed and deployed the full IT infrastructure for an 800-seat call centre, delivering a secure and scalable environment. The network was built using Cisco Meraki switches and a WatchGuard firewall, with VLANs configured for efficient traffic segmentation. I set up three Hyper-V hosts running Windows and Linux servers, supporting services like Active Directory, File and Print, Microsoft Deployment Server, IIS, MSSQL, and Laravel-based PHP applications.
+                                            <p>I designed and deployed the full IT infrastructure for an 800-seat call centre, delivering a secure and scalable environment. The network was built using Cisco Meraki switches and a WatchGuard firewall, with VLANs configured for efficient traffic segmentation. I set up three Hyper-V hosts running Windows and Linux servers, supporting services like Active Directory, Exchange, File and Print, Microsoft Deployment Server, IIS, MSSQL, and Laravel-based PHP applications.
                                             </p>
                                             <p>
                                                 All systems were backed up using Veeam backup and replication for reliable data protection and recovery. I also provided end-to-end support across all levels, ensuring smooth operations and rapid issue resolution. This project demonstrated my ability to build and maintain enterprise-grade infrastructure from the ground up.
@@ -223,8 +223,8 @@
                                             <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/claires-recipes.PNG') }}" alt="claires-recipes.uk">
                                         </div>
                                         <div>
-                                            <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Claires Recipes</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Claire's Recipes</h3>
+                                            <p>This project was developed at the request of a friend who wanted to launch a food and recipe blog. Over the course of several months, I built the platform using Laravel, Livewire, Bootstrap, JavaScript, and MySQL. The site is fully SEO-compliant and offers a range of features, including the ability for users to upload recipes. Once a recipe is submitted, the system automatically extracts the ingredients and queries a nutritional API to generate detailed nutritional information. In addition to the recipe functionality, the site includes a members-only section and a blog for sharing updates and engaging with the community.</p>
                                             <div class="flex mt-4">
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     PHP
@@ -257,7 +257,7 @@
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">AWS Cost Dashboard</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p>As part of my interest and ongoing training in AWS, this personal project showcases my evolving proficiency with the platform. It provides real-time cost metrics for all AWS services used within my account, retrieved directly via AWS APIs. The data is presented through a streamlined dashboard that alternates between tables and charts for easy visualization. The front end was built using TailwindCSS and AlpineJS, ensuring a responsive and modern user experience.</p>
                                             <div class="flex mt-4">
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     HTML
@@ -284,7 +284,7 @@
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Knowledge Base</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p>This project was developed during my time at Procter & Gamble and became a widely used tool within our local team. It served as an internal IT knowledge base, featuring SQL full-text search across all articles stored in the database. The platform also included an administrative section, allowing designated admins to review, approve, or reject submitted articles. The tech stack for this project consisted of Laravel, Vue.js, Bootstrap, and MySQL.</p>
                                             <div class="flex mt-4">
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     PHP
@@ -314,7 +314,7 @@
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">Danska Property Services</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p>This project was created as a personal exercise to enhance my front-end design skills and deepen my understanding of SEO best practices. It is a static prototype with no backend functionality and is not currently live. The design was built using Bootstrap and AlpineJS, focusing on clean layout structure, responsive design, and optimized markup for search engine visibility.</p>
                                             <div class="flex mt-4">
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     PHP
@@ -347,7 +347,7 @@
                                         </div>
                                         <div>
                                             <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">ITIL Helpdesk Software</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p>This project was developed to design ITIL-compliant ticketing software. It allows users to submit incident reports, with tickets assigned either automatically to agents or manually by administrators. The system also includes an integrated API-driven knowledge base, which can be shared with users via email links or accessed directly by support agents. Real-time browser notifications are enabled through WebSockets, enhancing responsiveness and user engagement. The tech stack for this project includes Laravel, Livewire, MySQL, TailwindCSS, and JavaScript.</p>
                                             <div class="flex mt-4">
                                                 <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     PHP
@@ -372,14 +372,16 @@
                         </div>
 
                         <h4 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h4>
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
+                        <div clss="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell"></div>
+
+                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md mt-4">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/PowerShell.webp') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
-                                            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p class="mb-2">The attached code was used during my time at Parmley Graham. It was used to modify phone numbers in Active dirctory as the country codes were causing a problem with the CRM we were using.</p>
                                             <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     Show Code
                                             </button>
@@ -411,11 +413,11 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/PowerShell.webp') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="claires-recipes.uk">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p>The attached PowerShell script was developed to query remote computers and servers for event log data. It retrieves relevant events and formats the results into an HTML table, making it easier to review and analyze system activity. This approach streamlines log monitoring across multiple machines and enhances readability for support.</p>
                                             <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     Show Code
                                             </button>
@@ -447,14 +449,14 @@
 
                             </div>
 
-                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md w-full">
+                            <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="powershell">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Get Software Uninstall String From the Registry</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quos voluptatem architecto aut incidunt omnis voluptate consequatur numquam odio ipsum, nemo totam, ratione impedit cum molestiae debitis et, laboriosam magnam?</p>
+                                            <p>The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device.</p>
                                             <button x-on:click="isModalOpen = true" class="cursor-pointer hover:bg-zinc-900 bg-zinc-700 mt-2 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                                                     Show Code
                                             </button>
@@ -491,7 +493,7 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/python.jpeg') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="claires-recipes.uk">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">Modify Active Directory Phone Numbers</h3>
@@ -527,7 +529,7 @@
                             <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
                                 <div x-data class="flex">
                                         <div class="pr-8">
-                                            <img class="h-32 w-128" src="{{ asset('storage/python.jpeg') }}" alt="claires-recipes.uk">
+                                            <img class="h-32 md:max-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="claires-recipes.uk">
                                         </div>
                                         <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
                                             <h3 class="pb-2 text-xl dark:text-slate-300 text-slate-600">HTML Server Reports</h3>
