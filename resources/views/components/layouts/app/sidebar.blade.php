@@ -91,9 +91,6 @@
                 </main>
             </div>
         </div>
-
-        <script src="https:///prismjs@v1.x/components/prism-core.min.js"></script>
-        <script src="https:///prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
         @fluxScripts
     </body>
 </html>
