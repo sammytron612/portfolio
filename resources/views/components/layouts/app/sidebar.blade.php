@@ -102,7 +102,7 @@
                                     </div>
                                     <div class="w-2/3">
                                         <div class="font-bold text-lg text-white">AWS Cloud Practitioner Intern, Primed Talent</div>
-                                        <div class="text-slate-300 mt-4">A 12 week inructor led training course leading to an AWS Certified Clour Practitioner certificate. Covering the AWS eco system including EC2, VPC, Databases, Amazon RDS, Python, Lambada and some Dev ops and conatiner services</div>
+                                        <div class="text-slate-300 mt-4">A 12 week instructor led training course leading to an AWS Certified Clour Practitioner certificate. Covering the AWS eco system including EC2, VPC, Databases, Amazon RDS, Python, Lambada and some Dev ops and conatiner services</div>
                                     </div>
                                 </div>
                             </li>
