@@ -3,13 +3,16 @@
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 
+
 Route::get('/', function () {
-    return view('dashboard');
+    return view('portfolio');
 })->name('home');
 
 Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
+
+Route::get('/blog', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 
 /*
 Route::view('dashboard', 'dashboard')

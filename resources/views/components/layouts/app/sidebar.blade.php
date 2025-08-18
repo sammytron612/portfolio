@@ -39,6 +39,12 @@
                                         <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
                                     </a>
                                 </li>
+                                <li>
+                                    <a class="group flex items-center py-3" href="{{ route('blog') }}">
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Blog</span>
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                         <ul class="ml-1 mt-12 flex items-center" aria-label="Social media links">
@@ -167,8 +173,8 @@
                                         <div class="text-slate-300">Sept 2018 - Nov 2018</div>
                                     </div>
                                     <div class="w-2/3">
-                                        <div class="font-bold text-lg text-white">IT Engineer (contract), Compter Center</div>
-                                        <div class="text-slate-300 mt-4"> completed a three-month contract supporting a Windows 10 rollout project. My key responsibilities included migrating user profiles using the User State Migration Tool (USMT) and deploying operating systems across multiple devices. I ensured a smooth transition with minimal disruption to end users, maintaining continuity and performance throughout the upgrade process.</div>
+                                        <div class="font-bold text-lg text-white">IT Engineer (contract), Computer Center</div>
+                                        <div class="text-slate-300 mt-4">Completed a three-month contract supporting a Windows 10 rollout project. My key responsibilities included migrating user profiles using the User State Migration Tool (USMT) and deploying operating systems across multiple devices. I ensured a smooth transition with minimal disruption to end users, maintaining continuity and performance throughout the upgrade process.</div>
                                     </div>
                                 </div>
                             </li>
