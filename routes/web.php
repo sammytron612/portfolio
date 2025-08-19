@@ -18,7 +18,10 @@ Route::get('/blog/create', [\App\Http\Controllers\BlogController::class, 'create
 Route::post('/blog/create', [\App\Http\Controllers\BlogController::class, 'saveBlog'])->name('blog.save');
 Route::view('/about', 'about')->name('about');
 Route::view('/experience', 'experience')->name('experience');
+
 Route::view('/projects', 'projects')->name('projects');
+Route::get('/snippet/create', [\App\Http\Controllers\CodeSnippetController::class, 'create'])->name('snippet.create');
+Route::post('/snippet/create', [\App\Http\Controllers\CodeSnippetController::class, 'save'])->name('snippet.save');
 
 /*
 Route::view('dashboard', 'dashboard')

@@ -161,20 +161,9 @@
 <h3 class="text-2xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h3>
 <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo"></div>
 
-    <x-project_code
-        image="{{ asset('storage/PowerShell.webp') }}"
-        title="Modify Active Directory Phone Numbers" text="This PowerShell script was developed to modify phone numbers in Active Directory. It automates the process of updating user attributes, ensuring consistency and accuracy across the directory. The script can be customized to target specific user groups or attributes, making it a versatile tool for managing user information in a Windows environment." snippet="phone"
-    />
 
-    <x-project_code
-        image="{{ asset('storage/PowerShell.webp') }}"
-        title="HTML Server Reports" text="The attached PowerShell script was developed to query remote computers and servers for event log data. It retrieves relevant events and formats the results into an HTML table, making it easier to review and analyze system activity. This approach streamlines log monitoring across multiple machines and enhances readability for support." snippet="server"
-    />
+    <livewire:code-snippets-list />
 
-    <x-project_code
-        image="{{ asset('storage/PowerShell.webp') }}"
-        title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
-    />
 
     <h4 class="text-2xl text-left my-8 font-bold dark:text-slate-300 text-slate-600">Python</h4>
     <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/python.jpeg') }}" alt="Python logo"></div>

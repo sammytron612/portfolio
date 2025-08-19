@@ -4,13 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class CodeSnippets extends Model
+class CodeSnippet extends Model
 {
     public $timestamps = false;
 
     protected $fillable = [
         'title',
-        'description',
+        'text',
         'code',
         'type',
     ];
