@@ -33,6 +33,15 @@ class BlogController extends Controller
         ]);
     }
 
+    public function createBlog(Request $request)
+    {
+        if($request->token != "kevin131169"){
+            abort(403, 'Unauthorized action.');
+        }
+
+        return view('blog.create');
+    }
+
 
     public function saveBlog(Request $request)
     {
