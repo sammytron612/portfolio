@@ -7,7 +7,7 @@
         @if($blog)
             <div class="mb-8 p-6 rounded shadow bg-gray-50 dark:bg-zinc-900 mt-4">
                 <h2 class="text-2xl font-bold mb-2 text-slate-800 dark:text-slate-100">{{ $blog->blog_title ?? 'Untitled' }}</h2>
-                <div class="mb-2 text-sm text-gray-500 dark:text-gray-400">By {{ $blog->user->name }} | {{ $blog->created_at->format('M d, Y') }}</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400 py-4">By {{ $blog->user->name }} | {{ $blog->created_at->format('M d, Y') }}</div>
                 <div class="text-base text-gray-700 dark:text-gray-200">{!! $blog->blog_text !!}</div>
                 <livewire:blog-comments :blogId="$blog->id" />
             </div>

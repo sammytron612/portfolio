@@ -21,8 +21,8 @@
       licence_key: '7hhx6257f94d68pmfnx64iuwl6evhnhfgr8u1zib3n43yarm',
       height : "600",
       selector: '#blog_text',
-      plugins: 'template autoresize autolink image fullscreen imagetools emoticons link lists hr paste media table',
-      toolbar: 'insert undo redo fullscreen fontsizeselect alignleft aligncenter alignright alignjustify h1 h2 bold italic numlist bullist image link emoticons hr paste table',
+      plugins: 'autoresize autolink image fullscreen codesample imagetools emoticons link lists hr paste media table',
+      toolbar: 'codesample insert undo redo fullscreen fontsizeselect alignleft aligncenter alignright alignjustify h1 h2 bold italic numlist bullist image link emoticons hr paste table',
       contextmenu: "link image table paste",
       content_style: 'textarea { padding: 20px; }',
       templates: [

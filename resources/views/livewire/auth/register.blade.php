@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
+use Illuminate\Http\Request;
+
 
 new #[Layout('components.layouts.auth')] class extends Component {
     public string $name = '';
@@ -17,8 +19,9 @@ new #[Layout('components.layouts.auth')] class extends Component {
     /**
      * Handle an incoming registration request.
      */
-    public function register(): void
+    public function register(Request $request): void
     {
+
         $validated = $this->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:' . User::class],
@@ -31,11 +34,12 @@ new #[Layout('components.layouts.auth')] class extends Component {
 
         Auth::login($user);
 
-        $this->redirectIntended(route('dashboard', absolute: false), navigate: true);
+        $this->redirectIntended(route('/', absolute: false), navigate: true);
     }
 }; ?>
 
 <div class="flex flex-col gap-6 bg-white dark:bg-zinc-900 p-8 rounded-xl shadow">
+
     <x-auth-header :title="__('Create an account')" :description="__('Enter your details below to create your account')" />
 
     <!-- Session Status -->

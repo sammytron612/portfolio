@@ -3,7 +3,7 @@
     x-init="window.addEventListener('hide-comment-form', () => { showForm = false })">
     <h3 class="text-2xl font-bold mb-6 text-slate-800 dark:text-slate-100 text-center">Comments</h3>
     <div class="flex flex-col md:flex-row justify-center gap-4 mb-6">
-        <button @click="showComments = !showComments" class="flex items-center gap-2 px-5 py-2 rounded-full bg-slate-600 text-white hover:bg-slate-700 transition shadow">
+        <button @click="showComments = !showComments" class="flex items-center gap-2 px-5 py-2 hover:cursor-pointer rounded-full bg-slate-600 text-white hover:bg-slate-700 transition shadow">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V10a2 2 0 012-2h2m2-4h4m-4 0a2 2 0 012 2v2m-2-2a2 2 0 00-2 2v2m6-4a2 2 0 00-2 2v2" /></svg>
             <span x-show="showComments">Hide Comments</span>
             <span x-show="!showComments">Show Comments</span>
