@@ -5,13 +5,6 @@
     </head>
 
     <body class="min-h-screen bg-white dark:bg-zinc-800">
-    <nav class="w-64 float-right fixed top-0 right-0 z-0" aria-label="Theme switcher">
-        <flux:radio.group x-data variant="segmented" x-model="$flux.appearance">
-            <flux:radio value="light" icon="sun" aria-label="Switch to light mode"></flux:radio>
-            <flux:radio selected value="dark" icon="moon" aria-label="Switch to dark mode"></flux:radio>
-            <flux:radio value="system" icon="computer-desktop" aria-label="Use system theme"></flux:radio>
-        </flux:radio.group>
-    </nav>
         <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
             <div class="lg:flex lg:justify-between lg:gap-4">
                 <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24" role="banner">
@@ -22,27 +15,27 @@
                         <nav class="nav hidden lg:block" aria-label="Main site navigation">
                             <ul class="mt-16 w-max">
                                 <li>
-                                    <a class="group flex items-center py-3" href="{{route('about')}}" aria-current="page" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
+                                    <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{route('about')}}" aria-current="page" wire:navigate>
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
+                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">About</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="group flex items-center py-3 active" href="{{route('experience')}}" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
+                                    <a class="group flex items-center py-3 active transition-colors duration-200 dark:hover:bg-zinc-800 rounded-lg" href="{{route('experience')}}" wire:navigate>
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
+                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">Experience</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="group flex items-center py-3" href="{{route('projects')}}" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
+                                    <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{route('projects')}}" wire:navigate>
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
+                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">Projects</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="group flex items-center py-3" href="{{ route('blog.index') }}" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Blog</span>
+                                    <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{ route('blog.index') }}" wire:navigate>
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
+                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">Blog</span>
                                     </a>
                                 </li>
                             </ul>
@@ -84,6 +77,14 @@
                                 </a>
                             </li>
                         </ul>
+                        <nav class="md:mt-4 mt-8 hover:cursor-pointer border-2 dark:border-slate-700 border-slate-200 w-48" aria-label="Theme switcher">
+                            <flux:radio.group x-data variant="segmented" x-model="$flux.appearance">
+                                <flux:radio value="light" icon="sun" aria-label="Switch to light mode"></flux:radio>
+                                <flux:radio selected value="dark" icon="moon" aria-label="Switch to dark mode"></flux:radio>
+                                <flux:radio value="system" icon="computer-desktop" aria-label="Use system theme"></flux:radio>
+                            </flux:radio.group>
+                        </nav>
+
                     </div>
                 </header>
                 <main id="content" class="py-12 lg:pt-24 lg:w-2/3" role="main">
