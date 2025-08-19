@@ -6,7 +6,7 @@
         @csrf
         <div>
             <label for="title" class="block mb-2 font-semibold text-slate-700 dark:text-slate-200">Title</label>
-            <input id="title" name="title" type="text" class="w-full p-3 border rounded dark:bg-zinc-900 dark:text-slate-200" required />
+            <input id="title" name="blog_title" type="text" class="w-full p-3 border rounded dark:bg-zinc-900 dark:text-slate-200" required />
         </div>
         <div>
             <label for="blog_text" class="block mb-2 font-semibold text-slate-700 dark:text-slate-200">Blog Text</label>
