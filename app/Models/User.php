@@ -31,7 +31,7 @@ class User extends Authenticatable
     {
         return $this->hasMany(Blog::class);
     }
-     */
+
     protected function casts(): array
     {
         return [

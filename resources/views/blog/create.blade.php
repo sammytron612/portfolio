@@ -2,7 +2,7 @@
 
 <div class="container mx-auto py-12 bg-white dark:bg-zinc-800">
     <h1 class="text-4xl font-bold mb-6 text-slate-700 dark:text-slate-200">Create Blog Post</h1>
-    <form method="POST" action="{{ route('blog.create') }}" class="space-y-6">
+    <form method="POST" action="{{ route('blog.save') }}" class="space-y-6">
         @csrf
         <div>
             <label for="title" class="block mb-2 font-semibold text-slate-700 dark:text-slate-200">Title</label>
@@ -10,17 +10,17 @@
         </div>
         <div>
             <label for="blog_text" class="block mb-2 font-semibold text-slate-700 dark:text-slate-200">Blog Text</label>
-            <textarea id="blog_text" name="blog_text" rows="6" class="w-full p-3 border rounded dark:bg-zinc-900 dark:text-slate-200" required></textarea>
+            <textarea id="blog_text" name="blog_text" rows="6" class="w-full p-3 border rounded dark:bg-zinc-900 dark:text-slate-200"></textarea>
         </div>
-        <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Create Blog</button>
+        <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 hover:cursor-pointer">Create Blog</button>
     </form>
 </div>
-<script src="https://cdn.tiny.cloud/1/qpuriefs0vhoo7azs8ty9kf1lyz69bininv5bq6grbpqpbh7/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://cdn.tiny.cloud/1/7hhx6257f94d68pmfnx64iuwl6evhnhfgr8u1zib3n43yarm/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 <script>
     tinymce.init({
-      licence_key: 'qpuriefs0vhoo7azs8ty9kf1lyz69bininv5bq6grbpqpbh7',
+      licence_key: '7hhx6257f94d68pmfnx64iuwl6evhnhfgr8u1zib3n43yarm',
       height : "600",
-      selector: '#blog-text',
+      selector: '#blog_text',
       plugins: 'template autoresize autolink image fullscreen imagetools emoticons link lists hr paste media table',
       toolbar: 'insert undo redo fullscreen fontsizeselect alignleft aligncenter alignright alignjustify h1 h2 bold italic numlist bullist image link emoticons hr paste table',
       contextmenu: "link image table paste",

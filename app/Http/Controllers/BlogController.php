@@ -6,9 +6,31 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return view('blog.index');
+        $currentId = $request->query('blog_id');
+        $query = \App\Models\Blog::with('user')->orderBy('created_at');
+
+        if ($currentId) {
+            $currentBlog = $query->where('id', $currentId)->first();
+        } else {
+            $currentBlog = $query->first();
+        }
+
+        $nextBlog = null;
+        $prevBlog = null;
+        if ($currentBlog) {
+            $nextBlog = \App\Models\Blog::where('created_at', '>', $currentBlog->created_at)
+                ->orderBy('created_at')->first();
+            $prevBlog = \App\Models\Blog::where('created_at', '<', $currentBlog->created_at)
+                ->orderByDesc('created_at')->first();
+        }
+
+        return view('blog.index', [
+            'blog' => $currentBlog,
+            'nextBlog' => $nextBlog,
+            'prevBlog' => $prevBlog,
+        ]);
     }
 
 
