@@ -34,7 +34,7 @@ class BlogController extends Controller
     }
 
 
-    public function createBlog(Request $request)
+    public function saveBlog(Request $request)
     {
         $request->validate([
             'blog_text' => 'required|string',

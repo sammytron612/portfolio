@@ -13,7 +13,7 @@ Route::get('/portfolio', function () {
 })->name('portfolio');
 
 Route::post('/upload-image', [\App\Http\Controllers\ImageUploadController::class, 'store'])->name('image.upload');
-Route::get('/blog', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 Route::view('/blog/create', 'blog.create')->name('blog.create');
 Route::post('/blog/create', [\App\Http\Controllers\BlogController::class, 'createBlog'])->name('blog.save');
 Route::view('/about', 'about')->name('about');
