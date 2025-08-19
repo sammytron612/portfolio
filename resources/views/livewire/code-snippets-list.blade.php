@@ -3,10 +3,10 @@
     <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md mt-4">
         <div x-data class="flex">
             <div class="pr-8">
-                @if($snippet->type === 'PowerShell')
+                @if($snippet->type === 'Powershell')
                 <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="{{$snippet->type}} logo">
                 @else
-                <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/PowerShell.webp') }}" alt="{{$snippet->type}} logo">
+                <img class="h-32 md:min-w-48 hidden md:block" src="{{ asset('storage/python.jpeg') }}" alt="{{$snippet->type}} logo">
                 @endif
             </div>
             <div x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">

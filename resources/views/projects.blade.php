@@ -158,31 +158,15 @@
     </a>
 </div>
 
-<h3 class="text-2xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Powershell Scripting</h3>
+<h3 class="text-2xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Scripting</h3>
 <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/PowerShell.webp') }}" alt="PowerShell logo"></div>
 
 
     <livewire:code-snippets-list />
 
 
-    <h4 class="text-2xl text-left my-8 font-bold dark:text-slate-300 text-slate-600">Python</h4>
-    <div class="w-full my-4"><img class="h-32 md:min-w-48 md:hidden" src="{{ asset('storage/python.jpeg') }}" alt="Python logo"></div>
-        <x-project_code
-        image="{{ asset('storage/python.jpeg') }}"
-        title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
-        />
 
-        <x-project_code
-        image="{{ asset('storage/python.jpeg') }}"
-        title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
-        />
-
-        <x-project_code
-        image="{{ asset('storage/python.jpeg') }}"
-        title="Get Software Uninstall String From the Registry" text="The following PowerShell script was used to remotely uninstall software from desktop machines by leveraging the uninstall string stored in the Windows Registry. It automates the process by querying the target computer’s registry for installed applications, extracting the appropriate uninstall command, and executing it remotely. This method is particularly useful for managing software across a network without requiring manual intervention on each device." snippet="uninstall"
-        />
-
-    </div>
+</div>
 
 </section>
 </x-layouts.app>
