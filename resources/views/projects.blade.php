@@ -1,6 +1,6 @@
 <x-layouts.app :title="__('Projects')">
 <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Projects" tabindex="-1">
-<h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600">Coding Projects</h2>
+<h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600 py-4 sticky top-0 bg-white dark:bg-zinc-800 z-10">Coding Projects</h2>
 <h3 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>
 <div class="mt-8">
     <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes">
@@ -54,6 +54,9 @@
                         </button>
                         <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                             TailwindCSS
+                        </button>
+                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                            AWS
                         </button>
                     </div>
                 </div>

@@ -77,7 +77,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <nav class="md:mt-4 mt-8 hover:cursor-pointer border-2 dark:border-slate-700 border-slate-200 w-48" aria-label="Theme switcher">
+                        <nav class="md:mt-4 mt-8 hover:cursor-pointer border-1 dark:border-slate-700 border-slate-200 w-48" aria-label="Theme switcher">
                             <flux:radio.group x-data variant="segmented" x-model="$flux.appearance">
                                 <flux:radio value="light" icon="sun" aria-label="Switch to light mode"></flux:radio>
                                 <flux:radio selected value="dark" icon="moon" aria-label="Switch to dark mode"></flux:radio>
