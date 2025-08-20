@@ -2,6 +2,37 @@
 <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Projects" tabindex="-1">
 <h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600 py-4 sticky top-0 bg-white dark:bg-zinc-800 z-10">Coding Projects</h2>
 <h3 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>
+
+<div class="mt-8">
+    <a href="https://aws-dash.kevinlwilson.co.uk" target="_blank" aria-label="AWS Dashboard">
+        <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
+            <div class="flex flex-col lg:flex-row">
+                <div class="md:pr-8">
+                    <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/AWS_Dashboard.PNG') }}" alt="Screenshot of AWS Cost Dashboard">
+                </div>
+                <div>
+                    <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-50 text-slate-600">AWS Cost Dashboard</h3>
+                    <p class="dark:text-slate-300 text-slate-600">As part of my interest and ongoing training in AWS, this personal project showcases my evolving proficiency with the platform. It provides real-time cost metrics for all AWS services used within my account, retrieved directly via AWS APIs. The data is presented through a streamlined dashboard that alternates between tables and charts for easy visualization. The front end was built using TailwindCSS and AlpineJS, ensuring a responsive and modern user experience.</p>
+                    <div class="flex mt-4">
+                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                            HTML
+                        </button>
+                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                            Alpine JS
+                        </button>
+                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                            TailwindCSS
+                        </button>
+                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
+                            AWS
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
 <div class="mt-8">
     <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
@@ -34,37 +65,7 @@
         </div>
     </a>
 </div>
-<!--
-<div class="mt-8">
-    <a href="https://aws-dash.kevinlwilson.co.uk" target="_blank" aria-label="claires recipes">
-        <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
-            <div class="flex flex-col lg:flex-row">
-                <div class="md:pr-8">
-                    <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="" alt="Screenshot of AWS Cost Dashboard">
-                </div>
-                <div>
-                    <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-50 text-slate-600">AWS Cost Dashboard</h3>
-                    <p class="dark:text-slate-300 text-slate-600">As part of my interest and ongoing training in AWS, this personal project showcases my evolving proficiency with the platform. It provides real-time cost metrics for all AWS services used within my account, retrieved directly via AWS APIs. The data is presented through a streamlined dashboard that alternates between tables and charts for easy visualization. The front end was built using TailwindCSS and AlpineJS, ensuring a responsive and modern user experience.</p>
-                    <div class="flex mt-4">
-                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                            HTML
-                        </button>
-                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                            Alpine JS
-                        </button>
-                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                            TailwindCSS
-                        </button>
-                        <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
-                            AWS
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-*/ -->
+
 <div class="mt-8">
     <a target="_blank" href="https://kevkb.kevinlwilson.co.uk" aria-label="knowledge base">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
