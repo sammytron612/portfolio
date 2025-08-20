@@ -15,10 +15,10 @@
         <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 hover:cursor-pointer">Create Blog</button>
     </form>
 </div>
-<script src="https://cdn.tiny.cloud/1/7hhx6257f94d68pmfnx64iuwl6evhnhfgr8u1zib3n43yarm/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://cdn.tiny.cloud/1/d3utf658spf5n1oft4rjl6x85g568jj7ourhvo2uhs578jt9/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 <script>
     tinymce.init({
-      licence_key: '7hhx6257f94d68pmfnx64iuwl6evhnhfgr8u1zib3n43yarm',
+      licence_key: 'd3utf658spf5n1oft4rjl6x85g568jj7ourhvo2uhs578jt9',
       height : "600",
       selector: '#blog_text',
       plugins: 'autoresize autolink image fullscreen codesample imagetools emoticons link lists hr paste media table',

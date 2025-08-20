@@ -34,13 +34,13 @@
         </div>
     </a>
 </div>
-
+<!--
 <div class="mt-8">
-    <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes">
+    <a href="https://aws-dash.kevinlwilson.co.uk" target="_blank" aria-label="claires recipes">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="md:pr-8">
-                    <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/aws_dashboard.PNG') }}" alt="Screenshot of AWS Cost Dashboard">
+                    <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="" alt="Screenshot of AWS Cost Dashboard">
                 </div>
                 <div>
                     <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">AWS Cost Dashboard</h3>
@@ -64,7 +64,7 @@
         </div>
     </a>
 </div>
-
+*/ -->
 <div class="mt-8">
     <a target="_blank" href="https://kevkb.kevinlwilson.co.uk" aria-label="knowledge base">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
@@ -96,7 +96,7 @@
 </div>
 
 <div class="mt-8">
-    <a href="https://danska-property.uk" target="_blank" aria-label="danska property">
+    <a href="https://danska.kevinlwilson.co.uk" target="_blank" aria-label="danska property">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="pr-8">
@@ -133,7 +133,7 @@
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="pr-8">
-                    <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/claires-recipes.PNG') }}" alt="Screenshot of ITIL Helpdesk Software">
+                    <img class="max-w-64 w-64 h-48 max-h-64 py-4 md:py-0" src="{{ asset('storage/help.jpeg') }}" alt="Screenshot of ITIL Helpdesk Software">
                 </div>
                 <div>
                     <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-300 text-slate-600">ITIL Helpdesk Software</h3>
