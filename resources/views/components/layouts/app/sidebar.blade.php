@@ -12,7 +12,7 @@
                         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl dark:text-slate-300 text-slate-600"><a href="/" aria-label="Home - Kevin Wilson">Kevin Wilson</a></h1>
                         <p class="mt-3 text-lg font-medium tracking-tight dark:text-slate-50 text-slate-600" sm:text-xl id="subtitle">Multi disciplined IT Professional</p>
                         <p class="mt-4 max-w-xs leading-normal">A passion for IT.</p>
-                        <nav class="nav hidden lg:block" aria-label="Main site navigation">
+                        <nav class="nav" aria-label="Main site navigation">
                             <ul class="mt-16 w-max">
                                 <li>
                                     <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{route('about')}}" aria-current="page" wire:navigate>
