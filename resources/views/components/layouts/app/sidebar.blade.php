@@ -65,17 +65,6 @@
                                     </span><span class="sr-only">LinkedIn</span>
                                 </a>
                             </li>
-
-                            <li class="list-none mr-5 shrink-0 text-xs">
-                                <a class="block hover:text-slate-200" href="https://github.com/bchiang7" target="_blank" rel="noreferrer noopener" aria-label="Facebook (opens in a new tab)" title="Facebook"><span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#1877f2]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
-                                        <path
-                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
-                                    </svg>
-                                    </span>
-                                </a>
-                            </li>
                         </ul>
                         <button x-on:click="darkMode=!darkMode" type="button" class="ml-8 mt-4 relative inline-flex flex-shrink-0 h-6 mr-5 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer bg-zinc-200 dark:bg-zinc-700 w-11 focus:outline-none focus:ring-2 focus:ring-neutral-700 focus:ring-offset-2" role="switch" aria-checked="false">
                             <span class="sr-only">Use setting</span>
