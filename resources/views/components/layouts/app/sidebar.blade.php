@@ -4,7 +4,7 @@
         @include('partials.head')
     </head>
 
-    <body body x-data="{darkMode: true}" :class="{'dark': darkMode === true }"  class="antialiased min-h-screen bg-white dark:bg-zinc-800">
+    <body x-data="{darkMode: true}" :class="{'dark': darkMode === true }"  class="antialiased min-h-screen bg-white dark:bg-zinc-800">
         <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
             <div class="lg:flex lg:justify-between lg:gap-4">
                 <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24" role="banner">
