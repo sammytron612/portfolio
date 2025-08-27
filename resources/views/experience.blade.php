@@ -1,4 +1,8 @@
-<x-layouts.app :title="__('Experience')">
+<x-layouts.app
+    :title="__('Professional Experience - Kevin Wilson IT Career')"
+    :description="__('Explore Kevin Wilson\'s professional IT experience including roles at BetVictor, Fujitsu Services, Capita, and more. From technical support to systems administration and cloud computing.')"
+    :keywords="__('Kevin Wilson Experience, IT Career, Technical Support, Systems Administrator, BetVictor, Fujitsu, Capita, Professional Background')"
+>
 <section id="experience" class="mb-8 md:mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4 p-2 md:p-8 rounded-xl shadow" aria-label="Experience" tabindex="-1">
     <h2 class="text-2xl font-bold py-2 md:py-4 text-slate-600 dark:text-slate-300 sticky top-0 bg-white dark:bg-zinc-800 z-10">Experience</h2>
     <ul class="divide-y divide-gray-200 dark:divide-zinc-700">

@@ -1,5 +1,3 @@
-<x-layouts.app.sidebar>
-    <flux:main container>
-        {{ $slot }}
-    </flux:main>
-</x-layouts.app.header>
+<x-layouts.app.sidebar :title="$title" :description="$description" :keywords="$keywords">
+    {{ $slot }}
+</x-layouts.app.sidebar>

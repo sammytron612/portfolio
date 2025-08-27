@@ -1,4 +1,8 @@
-<x-layouts.app :title="__('Blog')">
+<x-layouts.app
+    :title="$blog ? $blog->blog_title . ' - Kevin Wilson Blog' : 'Blog - Kevin Wilson'"
+    :description="$blog ? substr(strip_tags($blog->blog_content), 0, 155) : 'Read the latest blog posts from Kevin Wilson about technology, IT solutions, web development, and professional insights.'"
+    :keywords="__('Kevin Wilson Blog, Technology Blog, IT Insights, Web Development, Professional Blog, Tech Articles')"
+>
 
 <div class="container mx-auto py-6 md:py-12 bg-white dark:bg-zinc-800">
     <h2 class="sticky top-0 z-10 bg-white dark:bg-zinc-800 text-2xl font-bold mb-3 md:mb-6 text-slate-700 dark:text-slate-200 py-2 md:py-4">Blog</h2>

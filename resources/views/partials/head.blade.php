@@ -3,6 +3,32 @@
 
 <title>{{ $title ?? config('app.name') }}</title>
 
+<!-- SEO Meta Tags -->
+<meta name="description" content="{{ $description ?? 'Kevin Wilson - Multi disciplined IT Professional with a passion for technology, AWS, web development, and IT solutions.' }}">
+<meta name="keywords" content="{{ $keywords ?? 'Kevin Wilson, IT Professional, Web Developer, AWS, Laravel, PHP, JavaScript, Portfolio, Technology, Cloud Computing' }}">
+<meta name="author" content="Kevin Wilson">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:title" content="{{ $title ?? config('app.name') }}">
+<meta property="og:description" content="{{ $description ?? 'Kevin Wilson - Multi disciplined IT Professional with a passion for technology, AWS, web development, and IT solutions.' }}">
+<meta property="og:image" content="{{ asset('favicon.svg') }}">
+<meta property="og:site_name" content="Kevin Wilson Portfolio">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ url()->current() }}">
+<meta property="twitter:title" content="{{ $title ?? config('app.name') }}">
+<meta property="twitter:description" content="{{ $description ?? 'Kevin Wilson - Multi disciplined IT Professional with a passion for technology, AWS, web development, and IT solutions.' }}">
+<meta property="twitter:image" content="{{ asset('favicon.svg') }}">
+
+<!-- Additional SEO -->
+<meta name="theme-color" content="#27272a">
+<meta name="msapplication-TileColor" content="#27272a">
+<link rel="canonical" href="{{ url()->current() }}">
+
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">

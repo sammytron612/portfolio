@@ -1,4 +1,8 @@
-<x-layouts.app :title="__('Projects')">
+<x-layouts.app
+    :title="__('Coding Projects - Kevin Wilson Portfolio')"
+    :description="__('Discover Kevin Wilson\'s coding projects including AWS Cost Dashboard, Recipe websites, Knowledge Base applications, and PowerShell automation scripts. Built with Laravel, PHP, JavaScript, and Python.')"
+    :keywords="__('Kevin Wilson Projects, Coding Portfolio, AWS Dashboard, Web Development, Laravel Projects, PowerShell Scripts, Python Automation, PHP Applications')"
+>
 <section id="projects" class="mb-8 md:mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Projects" tabindex="-1">
 <h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600 py-2 md:py-4 sticky top-0 bg-white dark:bg-zinc-800 z-10">Coding Projects</h2>
 <h3 class="text-1xl text-left my-2 md:my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>

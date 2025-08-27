@@ -1,4 +1,8 @@
-<x-layouts.app :title="__('About')">
+<x-layouts.app
+    :title="__('About Kevin Wilson - Multi-disciplined IT Professional')"
+    :description="__('Learn about Kevin Wilson, a versatile IT professional with expertise in technical support, systems administration, web development, AWS cloud services, and automation scripting.')"
+    :keywords="__('Kevin Wilson, IT Professional, Technical Support, Systems Administration, Web Development, AWS, Cloud Computing, PowerShell, Python, Laravel')"
+>
 <section id="about" class="mb-16 scroll-mt-16 md:mb-16 lg:mb-12 lg:scroll-mt-24" aria-label="About me" tabindex="-1">
     <h2 class="text-2xl font-bold py-2 md:py-4 dark:text-slate-300 text-slate-600 sticky top-0 bg-white dark:bg-zinc-800 z-10">About me</h2>
     <div class="dark:text-slate-300 text-slate-600">
