@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
     <head>
         @include('partials.head')
     </head>
 
-    <body x-data="{darkMode: true}" :class="{'dark': darkMode === true }"  class="antialiased min-h-screen bg-white dark:bg-zinc-800">
-        <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+    <body class="antialiased min-h-screen bg-white dark:bg-zinc-800">
+        <div class="mx-auto min-h-screen max-w-screen-xl px-3 py-6 font-sans md:px-12 md:py-16 lg:py-0">
             <div class="lg:flex lg:justify-between lg:gap-4">
                 <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24" role="banner">
                     <div>
@@ -66,7 +66,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <button x-on:click="darkMode=!darkMode" type="button" class="ml-8 mt-4 relative inline-flex flex-shrink-0 h-6 mr-5 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer bg-zinc-200 dark:bg-zinc-700 w-11 focus:outline-none focus:ring-2 focus:ring-neutral-700 focus:ring-offset-2" role="switch" aria-checked="false">
+                        <button onclick="toggleDarkMode()" type="button" class="ml-8 mt-4 relative inline-flex flex-shrink-0 h-6 mr-5 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer bg-zinc-200 dark:bg-zinc-700 w-11 focus:outline-none focus:ring-2 focus:ring-neutral-700 focus:ring-offset-2" role="switch" aria-checked="false">
                             <span class="sr-only">Use setting</span>
                             <span class="relative inline-block w-5 h-5 transition duration-500 ease-in-out transform translate-x-0 bg-white rounded-full shadow pointer-events-none dark:translate-x-5 ring-0">
                                 <span class="absolute inset-0 flex items-center justify-center w-full h-full transition-opacity duration-500 ease-in opacity-100 dark:opacity-0 dark:duration-100 dark:ease-out" aria-hidden="true">
@@ -93,7 +93,7 @@
 
                     </div>
                 </header>
-                <main id="content" class="py-12 lg:pt-24 lg:w-2/3" role="main">
+                <main id="content" class="py-6 lg:pt-24 lg:w-2/3" role="main">
                     {{$slot}}
                 </main>
             </div>

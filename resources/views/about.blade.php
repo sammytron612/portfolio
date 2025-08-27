@@ -1,6 +1,6 @@
 <x-layouts.app :title="__('About')">
 <section id="about" class="mb-16 scroll-mt-16 md:mb-16 lg:mb-12 lg:scroll-mt-24" aria-label="About me" tabindex="-1">
-    <h2 class="text-2xl font-bold py-4 dark:text-slate-300 text-slate-600 sticky top-0 bg-white dark:bg-zinc-800 z-10">About me</h2>
+    <h2 class="text-2xl font-bold py-2 md:py-4 dark:text-slate-300 text-slate-600 sticky top-0 bg-white dark:bg-zinc-800 z-10">About me</h2>
     <div class="dark:text-slate-300 text-slate-600">
         <p>I'm a versatile, multi-disciplined IT professional with a genuine passion for technology and a strong interest in coding and scripting. My career has given me hands-on experience across technical support, systems administration, networking, and web development, allowing me to approach challenges with both breadth and depth.</p>
         <p class="mt-4">Starting from 1st line and progressing through to 3rd line support, I've consistently helped users and businesses stay productive by resolving technical issues efficiently and empathetically. I’ve also improved workflows through automation and scripting, using tools like PowerShell and Python, and by developing custom applications tailored to specific needs</p>

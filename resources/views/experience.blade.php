@@ -1,11 +1,11 @@
 <x-layouts.app :title="__('Experience')">
-<section id="experience" class="mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4 p-8 rounded-xl shadow" aria-label="Experience" tabindex="-1">
-    <h2 class="text-2xl font-bold py-4 text-slate-600 dark:text-slate-300 sticky top-0 bg-white dark:bg-zinc-800 z-10">Experience</h2>
+<section id="experience" class="mb-8 md:mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4 p-2 md:p-8 rounded-xl shadow" aria-label="Experience" tabindex="-1">
+    <h2 class="text-2xl font-bold py-2 md:py-4 text-slate-600 dark:text-slate-300 sticky top-0 bg-white dark:bg-zinc-800 z-10">Experience</h2>
     <ul class="divide-y divide-gray-200 dark:divide-zinc-700">
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">June 2025 - Sept 2025</div>
+                    <div class="text-slate-500 dark:text-slate-300">June 2025 - Sept 2025</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">AWS Cloud Practitioner Intern, Primed Talent</div>
@@ -17,7 +17,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">July 2025 - April 2025</div>
+                    <div class="text-slate-500 dark:text-slate-300">July 2025 - April 2025</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">Group Facilitator, Neraf</div>
@@ -29,7 +29,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">April 2021 - Jan 2023</div>
+                    <div class="text-slate-500 dark:text-slate-300">April 2021 - Jan 2023</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">Systems Administrator, EC Outsourcing</div>
@@ -47,7 +47,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">March 2020 - June 2022</div>
+                    <div class="text-slate-500 dark:text-slate-300">March 2020 - June 2022</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">IT Engineer , Proctor & Gamble</div>
@@ -59,7 +59,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">November 2018 - January 2020</div>
+                    <div class="text-slate-500 dark:text-slate-300">November 2018 - January 2020</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">IT Engineer, Npower</div>
@@ -71,7 +71,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">Sept 2018 - Nov 2018</div>
+                    <div class="text-slate-500 dark:text-slate-300">Sept 2018 - Nov 2018</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">IT Engineer (contract), Computer Center</div>
@@ -83,7 +83,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">Oct 2017 - March 2018</div>
+                    <div class="text-slate-500 dark:text-slate-300">Oct 2017 - March 2018</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">IT Support Engineer(contract), NHS</div>
@@ -95,7 +95,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">March 2014 - March 2017</div>
+                    <div class="text-slate-500 dark:text-slate-300">March 2014 - March 2017</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">IT Technician\Service Desk Analyst, Parmley Graham LTD</div>
@@ -107,7 +107,7 @@
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="w-full md:w-1/3">
-                    <div class="text-slate-500 dark:text-slate-400">November 2013 - January 2014</div>
+                    <div class="text-slate-500 dark:text-slate-300">November 2013 - January 2014</div>
                 </div>
                 <div class="w-full md:w-2/3">
                     <div class="font-bold text-lg text-slate-700 dark:text-slate-100">IT Technician, SCS LTD</div>

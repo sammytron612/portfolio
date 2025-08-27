@@ -36,7 +36,7 @@
         </div>
     </div>
     @empty
-        <div class="col-span-full text-gray-500 dark:text-gray-400">No code snippets found.</div>
+        <div class="col-span-full text-gray-500 dark:text-gray-300">No code snippets found.</div>
     @endforelse
 
 

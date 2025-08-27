@@ -12,3 +12,42 @@
 
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 @fluxAppearance
+
+<script>
+// Comprehensive dark mode solution
+(function() {
+    // Function to apply dark mode
+    function applyDarkMode() {
+        const isDark = localStorage.getItem('darkMode') !== 'false';
+        if (isDark) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        return isDark;
+    }
+
+    // Apply dark mode immediately
+    applyDarkMode();
+
+    // Global toggle function
+    window.toggleDarkMode = function() {
+        const currentMode = localStorage.getItem('darkMode') !== 'false';
+        const newMode = !currentMode;
+        localStorage.setItem('darkMode', newMode);
+        applyDarkMode();
+    };
+
+    // Listen for Livewire navigation events
+    document.addEventListener('livewire:navigated', function() {
+        setTimeout(applyDarkMode, 10);
+    });
+
+    // Listen for regular page navigation
+    document.addEventListener('DOMContentLoaded', function() {
+        applyDarkMode();
+    });
+})();
+</script>
+
+

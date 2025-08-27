@@ -1,7 +1,7 @@
 <x-layouts.app :title="__('Projects')">
-<section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Projects" tabindex="-1">
-<h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600 py-4 sticky top-0 bg-white dark:bg-zinc-800 z-10">Coding Projects</h2>
-<h3 class="text-1xl text-left my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>
+<section id="projects" class="mb-8 md:mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Projects" tabindex="-1">
+<h2 class="text-2xl font-bold dark:text-slate-300 text-slate-600 py-2 md:py-4 sticky top-0 bg-white dark:bg-zinc-800 z-10">Coding Projects</h2>
+<h3 class="text-1xl text-left my-2 md:my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>
 
 <div class="mt-8">
     <a href="https://aws-dash.kevinlwilson.co.uk" target="_blank" aria-label="AWS Dashboard">

@@ -28,8 +28,8 @@ class BlogController extends Controller
 
         return view('blog.index', [
             'blog' => $currentBlog,
-            'nextBlog' => $prevBlog,
-            'prevBlog' => $nextBlog,
+            'nextBlog' => $nextBlog,
+            'prevBlog' => $prevBlog,
         ]);
     }
 
