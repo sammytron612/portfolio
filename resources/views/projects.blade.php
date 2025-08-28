@@ -8,7 +8,7 @@
 <h3 class="text-1xl text-left my-2 md:my-4 font-bold dark:text-slate-300 text-slate-600">Website / Web Application Development</h3>
 
 <div class="mt-8">
-    <a href="https://aws-dash.kevinlwilson.co.uk" target="_blank" aria-label="AWS Dashboard">
+    <a href="https://aws-dash.klw-design.co.uk" target="_blank" aria-label="AWS Dashboard">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="md:pr-8">
@@ -71,7 +71,7 @@
 </div>
 
 <div class="mt-8">
-    <a target="_blank" href="https://kevkb.kevinlwilson.co.uk" aria-label="knowledge base">
+    <a target="_blank" href="https://no-login.klw-design.co.uk" aria-label="knowledge base">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="md:pr-8">
@@ -101,7 +101,7 @@
 </div>
 
 <div class="mt-8">
-    <a href="https://danska.kevinlwilson.co.uk" target="_blank" aria-label="danska property">
+    <a href="https://danska.klw-design.co.uk" target="_blank" aria-label="danska property">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="pr-8">
@@ -134,7 +134,7 @@
 </div>
 
 <div class="mt-8">
-    <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes">
+    <a href="https://kb.kevinlwilson.co.uk" target="_blank" aria-label="claires recipes">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="pr-8">
