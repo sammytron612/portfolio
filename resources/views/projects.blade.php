@@ -46,7 +46,7 @@
                 </div>
                 <div>
                     <h3 class="md:py-4 lg:p-2 text-xl dark:text-slate-50 text-slate-600">Knowledge Base</h3>
-                    <p class="dark:text-slate-300 text-slate-600">This project was developed during my time at Procter & Gamble and became a widely used tool within our local team. It served as an internal IT knowledge base, featuring SQL full-text search across all articles stored in the database. The platform also included an administrative section, allowing designated admins to review, approve, or reject submitted articles. The tech stack for this project consisted of Laravel, Vue.js, Bootstrap, and MySQL.</p>
+                    <p class="dark:text-slate-300 text-slate-600">This project was developed during my time at Procter & Gamble and became a widely used tool within our local team. It served as an internal IT knowledge base, featuring SQL full-text search across all articles stored in the database. The platform also included an administrative section, allowing designated admins to review, approve, or reject submitted articles. The tech stack for this project consisted of Laravel, Vue.js, tailwindCSS, and MySQL. This version is readonly and with no login</p>
                     <div class="flex mt-4">
                         <button class="bg-zinc-700 mr-1 rounded-xl text-white text-xs font-bold py-1 px-2 rounded">
                             PHP
