@@ -71,7 +71,7 @@
 </div>
 
 <div class="mt-8">
-    <a target="_blank" href="https://no-login.klw-design.co.uk" aria-label="knowledge base">
+    <a target="_blank" href="https://kb-nologin.klw-design.co.uk" aria-label="knowledge base">
         <div class="dark:hover:bg-zinc-600 p-4 hover:rounded-md">
             <div class="flex flex-col lg:flex-row">
                 <div class="md:pr-8">
