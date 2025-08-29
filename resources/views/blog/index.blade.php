@@ -4,8 +4,10 @@
     :keywords="__('Kevin Wilson Blog, Technology Blog, IT Insights, Web Development, Professional Blog, Tech Articles')"
 >
 
-<div class="container mx-auto py-6 md:py-12 bg-white dark:bg-zinc-800">
-    <h2 class="sticky top-0 z-10 bg-white dark:bg-zinc-800 text-2xl font-bold mb-3 md:mb-6 text-slate-700 dark:text-slate-200 py-2 md:py-4">Blog</h2>
+<div class="container mx-auto py-6 md:py-12 bg-transparent">
+    <h2 class="text-3xl font-bold dark:text-white text-slate-800 py-2 md:py-4 mb-3 md:mb-6">
+        <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Blog</span>
+    </h2>
     <p class="mb-2 md:mb-4 text-lg text-gray-700 dark:text-gray-300">Welcome to the blog!</p>
     <main class="mb-4 text-lg text-gray-700 dark:text-gray-300">
         @if($blog)

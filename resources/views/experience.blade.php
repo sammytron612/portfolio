@@ -4,7 +4,9 @@
     :keywords="__('Kevin Wilson Experience, IT Career, Technical Support, Systems Administrator, BetVictor, Fujitsu, Capita, Professional Background')"
 >
 <section id="experience" class="mb-8 md:mb-16 scroll-mt-4 md:mb-4 lg:mb-12 lg:scroll-mt-4 p-2 md:p-8 rounded-xl shadow" aria-label="Experience" tabindex="-1">
-    <h2 class="text-2xl font-bold py-2 md:py-4 text-slate-600 dark:text-slate-300 sticky top-0 bg-white dark:bg-zinc-800 z-10">Experience</h2>
+    <h2 class="text-3xl font-bold dark:text-white text-slate-800 py-2 md:py-4">
+        <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Experience</span>
+    </h2>
     <ul class="divide-y divide-gray-200 dark:divide-zinc-700">
         <li class="mt-12">
             <div class="flex flex-col md:flex-row gap-4 mb-6">

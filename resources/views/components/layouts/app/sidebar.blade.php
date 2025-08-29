@@ -8,49 +8,53 @@
         ])
     </head>
 
-    <body class="antialiased min-h-screen bg-zinc-800 dark:bg-zinc-800" style="background-color: #27272a !important;">
+    <body class="antialiased min-h-screen bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900" style="background: linear-gradient(135deg, #18181b 0%, #27272a 50%, #18181b 100%) !important;">
         <div class="mx-auto min-h-screen max-w-screen-xl px-3 py-6 font-sans md:px-12 md:py-16 lg:py-0">
-            <div class="lg:flex lg:justify-between lg:gap-4">
-                <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24" role="banner">
-                    <div>
-                        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl dark:text-slate-300 text-slate-600"><a href="/" aria-label="Home - Kevin Wilson">Kevin Wilson</a></h1>
-                        <p class="mt-3 text-lg font-medium tracking-tight dark:text-slate-50 text-slate-600" sm:text-xl id="subtitle">Multi disciplined IT Professional</p>
-                        <p class="mt-4 max-w-xs leading-normal dark:text-slate-300 text-slate-600">A passion for IT.</p>
-                        <nav class="nav" aria-label="Main site navigation">
-                            <ul class="mt-16 w-max">
-                                <li>
-                                    <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{route('about')}}" aria-current="page" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">About</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="group flex items-center py-3 active transition-colors duration-200 dark:hover:bg-zinc-800 rounded-lg" href="{{route('experience')}}" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">Experience</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{route('projects')}}" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">Projects</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="group flex items-center py-3 transition-colors duration-200  dark:hover:bg-zinc-800 rounded-lg" href="{{ route('blog.index') }}" wire:navigate>
-                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 dark:bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-200 dark:group-hover:bg-slate-100 group-focus-visible:w-16 group-focus-visible:bg-slate-200 dark:group-focus-visible:bg-slate-100 motion-reduce:transition-none"></span>
-                                        <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-white group-focus-visible:text-slate-700 dark:group-focus-visible:text-white">Blog</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <ul class="ml-1 mt-12 flex items-center" aria-label="Social media links">
-                            <li class="list-none mr-5 shrink-0 text-xs">
-                                <a class="block hover:text-slate-200" href="https://github.com/sammytron612" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="[&>svg]:h-5 [&>svg]:w-5">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="currentColor"
-                                        viewBox="0 0 496 512">
+            <div class="lg:flex lg:justify-between lg:gap-8">
+                <header class="lg:sticky lg:top-0 lg:flex lg:top-0 lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24 relative" role="banner">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-2xl blur-xl opacity-50"></div>
+                        <div class="relative bg-gradient-to-br from-zinc-900/80 via-zinc-800/80 to-zinc-900/80 backdrop-blur-sm border border-zinc-700/50 rounded-xl p-6 lg:p-8">
+                            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent animate-pulse">
+                                <a href="/" aria-label="Home - Kevin Wilson">Kevin Wilson</a>
+                            </h1>
+                            <p class="mt-3 text-lg font-medium tracking-tight text-slate-200" sm:text-xl id="subtitle">Multi disciplined IT Professional</p>
+                            <p class="mt-4 max-w-xs leading-normal text-slate-300">A passion for IT.</p>
+
+                            <nav class="nav mt-8" aria-label="Main site navigation">
+                                <ul class="space-y-2">
+                                    <li>
+                                        <a class="group flex items-center py-3 px-4 transition-all duration-300 hover:bg-zinc-800/50 rounded-lg border border-transparent hover:border-zinc-600/50" href="{{route('about')}}" aria-current="page" wire:navigate>
+                                            <span class="nav-indicator mr-4 h-px w-8 bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-300 group-hover:w-16 group-hover:from-blue-300 group-hover:to-purple-300 group-focus-visible:w-16 motion-reduce:transition-none"></span>
+                                            <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-white group-focus-visible:text-white transition-colors duration-300">About</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="group flex items-center py-3 px-4 transition-all duration-300 hover:bg-zinc-800/50 rounded-lg border border-transparent hover:border-zinc-600/50" href="{{route('experience')}}" wire:navigate>
+                                            <span class="nav-indicator mr-4 h-px w-8 bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-300 group-hover:w-16 group-hover:from-blue-300 group-hover:to-purple-300 group-focus-visible:w-16 motion-reduce:transition-none"></span>
+                                            <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-white group-focus-visible:text-white transition-colors duration-300">Experience</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="group flex items-center py-3 px-4 transition-all duration-300 hover:bg-zinc-800/50 rounded-lg border border-transparent hover:border-zinc-600/50" href="{{route('projects')}}" wire:navigate>
+                                            <span class="nav-indicator mr-4 h-px w-8 bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-300 group-hover:w-16 group-hover:from-blue-300 group-hover:to-purple-300 group-focus-visible:w-16 motion-reduce:transition-none"></span>
+                                            <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-white group-focus-visible:text-white transition-colors duration-300">Projects</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="group flex items-center py-3 px-4 transition-all duration-300 hover:bg-zinc-800/50 rounded-lg border border-transparent hover:border-zinc-600/50" href="{{ route('blog.index') }}" wire:navigate>
+                                            <span class="nav-indicator mr-4 h-px w-8 bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-300 group-hover:w-16 group-hover:from-blue-300 group-hover:to-purple-300 group-focus-visible:w-16 motion-reduce:transition-none"></span>
+                                            <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-300 group-hover:text-white group-focus-visible:text-white transition-colors duration-300">Blog</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div class="mt-8 pt-6 border-t border-zinc-700/50">
+                                <ul class="flex items-center gap-4" aria-label="Social media links">
+                                    <li>
+                                        <a class="group flex items-center justify-center w-10 h-10 text-slate-400 hover:text-white transition-all duration-300 hover:bg-zinc-800/50 rounded-lg border border-zinc-700/50 hover:border-zinc-600" href="https://github.com/sammytron612" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub">
+                                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
                                         <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
                                         <path
                                         d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
