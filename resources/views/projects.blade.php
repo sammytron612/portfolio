@@ -15,7 +15,7 @@
 </h3>
 
 <div class="mt-8 space-y-8">
-    <a href="https://aws.klw-design.co.uk" target="_blank" aria-label="AWS Dashboard" class="group block">
+    <a href="https://aws.klw-design.co.uk" target="_blank" rel="nofollow" aria-label="AWS Dashboard" class="group block">
         <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10 backdrop-blur-sm">
             <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
@@ -42,7 +42,7 @@
     </a>
 
 <div class="mt-8">
-    <a target="_blank" href="https://kb-nologin.klw-design.co.uk" aria-label="knowledge base" class="group block">
+    <a target="_blank" href="https://kb-nologin.klw-design.co.uk" aria-label="knowledge base" rel="nofollow" class="group block">
         <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-purple-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/10 backdrop-blur-sm">
             <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
@@ -70,7 +70,7 @@
 </div>
 
 <div class="mt-8">
-    <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes" class="group block">
+    <a href="https://claires-recipes.uk" target="_blank" aria-label="claires recipes" rel="nofollow" class="group block">
         <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-green-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/10 backdrop-blur-sm">
             <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
@@ -98,37 +98,9 @@
     </a>
 </div>
 
-<div class="mt-8">
-    <a href="https://danska.klw-design.co.uk" target="_blank" aria-label="danska property" class="group block">
-        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-orange-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/10 backdrop-blur-sm">
-            <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div class="relative p-6 lg:p-8">
-                <div class="flex flex-col lg:flex-row lg:items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <div class="relative overflow-hidden rounded-lg group">
-                            <img class="w-64 h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="{{ asset('storage/danska.PNG') }}" alt="Screenshot of Danska Property Services prototype">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                        </div>
-                    </div>
-                    <div class="flex-1 space-y-4">
-                        <h3 class="text-2xl font-bold dark:text-white text-slate-800 group-hover:text-orange-400 transition-colors duration-300">Danska Property Services</h3>
-                        <p class="dark:text-slate-300 text-slate-600 leading-relaxed">This project was created as a personal exercise to enhance my front-end design skills and deepen my understanding of SEO best practices. It is a static prototype with no backend functionality and is not currently live. The design was built using Bootstrap and AlpineJS, focusing on clean layout structure, responsive design, and optimized markup for search engine visibility.</p>
-                        <div class="flex flex-wrap gap-2 mt-4">
-                            <span class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-xs font-semibold py-2 px-3 rounded-full">PHP</span>
-                            <span class="bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs font-semibold py-2 px-3 rounded-full">Laravel</span>
-                            <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-semibold py-2 px-3 rounded-full">Livewire</span>
-                            <span class="bg-gradient-to-r from-green-500 to-teal-500 text-white text-xs font-semibold py-2 px-3 rounded-full">AlpineJS</span>
-                            <span class="bg-gradient-to-r from-indigo-500 to-blue-500 text-white text-xs font-semibold py-2 px-3 rounded-full">Bootstrap CSS</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
 
 <div class="mt-8">
-    <a href="https://kb.kevinlwilson.co.uk" target="_blank" aria-label="ITIL Helpdesk Software" class="group block">
+    <a href="https://kb.kevinlwilson.co.uk" target="_blank" aria-label="ITIL Helpdesk Software" rel="nofollow" class="group block">
         <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10 backdrop-blur-sm">
             <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
