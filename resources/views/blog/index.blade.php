@@ -1,6 +1,6 @@
 <x-layouts.app
     :title="$blog ? $blog->blog_title . ' - Kevin Wilson Blog' : 'Blog - Kevin Wilson'"
-    :description="$blog ? substr(strip_tags($blog->blog_content), 0, 155) : 'Read the latest blog posts from Kevin Wilson about technology, IT solutions, web development, and professional insights.'"
+    :description="$blog ? substr(strip_tags($blog->blog_text), 0, 155) : 'Read the latest blog posts from Kevin Wilson about technology, IT solutions, web development, and professional insights.'"
     :keywords="__('Kevin Wilson Blog, Technology Blog, IT Insights, Web Development, Professional Blog, Tech Articles')"
 >
 
