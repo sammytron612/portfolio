@@ -23,11 +23,36 @@ Route::view('/projects', 'projects')->name('projects');
 Route::get('/snippet/create', [\App\Http\Controllers\CodeSnippetController::class, 'create'])->name('snippet.create');
 Route::post('/snippet/create', [\App\Http\Controllers\CodeSnippetController::class, 'save'])->name('snippet.save');
 
-/*
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
-*/
+// Sitemap route
+Route::get('/sitemap.xml', [\App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
+
+// Robots.txt route
+Route::get('/robots.txt', function () {
+    $content = "User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: " . url('/sitemap.xml') . "
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /experience
+Allow: /projects
+Allow: /blog
+
+# Disallow admin areas
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /login
+Disallow: /register
+Disallow: /admin";
+
+    return response($content, 200)
+        ->header('Content-Type', 'text/plain');
+})->name('robots');
+
+
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');
 

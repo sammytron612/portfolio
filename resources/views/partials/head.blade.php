@@ -29,6 +29,9 @@
 <meta name="msapplication-TileColor" content="#27272a">
 <link rel="canonical" href="{{ url()->current() }}">
 
+<!-- Sitemap -->
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ route('sitemap') }}">
+
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
