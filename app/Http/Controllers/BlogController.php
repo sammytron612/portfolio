@@ -35,7 +35,7 @@ class BlogController extends Controller
 
     public function createBlog(Request $request)
     {
-        if($request->token != "kevin131169"){
+        if($request->token != config('app.token')){
             abort(403, 'Unauthorized action.');
         }
 

@@ -7,8 +7,11 @@ use App\Models\CodeSnippet;
 
 class CodeSnippetController extends Controller
 {
-    public function create()
+    public function create(Request $request)
     {
+        if($request->token != config('app.token')){
+            abort(403, 'Unauthorized action.');
+        }
         return view('create-snippet');
     }
 
