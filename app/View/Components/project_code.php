@@ -11,7 +11,7 @@ class project_code extends Component
     public string $image;
     public string $title;
     public string $snippet;
-    public string $text
+    public string $text;
 
     /**
      * Create a new component instance.
