@@ -71,7 +71,7 @@
 
 <div class="mt-8">
     <a href="https://bnb.klw-deign.co.uk" target="_blank" aria-label="Seaham Coastal Retreats" rel="nofollow" class="group block">
-        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-green-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/10 backdrop-blur-sm">
+        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 border border-zinc-700/50 hover:border-indigo-200/50 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-100/10 backdrop-blur-sm">
             <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
                 <div class="flex flex-col lg:flex-row lg:items-start gap-6">
