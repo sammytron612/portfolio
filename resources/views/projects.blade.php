@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="flex-1 space-y-4">
-                        <h3 class="text-2xl font-bold dark:text-white text-slate-800 group-hover:text-green-400 transition-colors duration-300">Seaham Coastal Retreats</h3>
+                        <h3 class="text-2xl font-bold dark:text-white text-slate-800 group-hover:text-green-indigo-400 transition-colors duration-300">Seaham Coastal Retreats</h3>
                         <p class="dark:text-slate-300 text-slate-600 leading-relaxed">This project was developed at the request of a Client, with the direction of Showcasing rental airbnb style properties in Seaham County Durham. It includes an array of features including an admin section plus online booking and payment via stripe.</p>
                         <div class="flex flex-wrap gap-2 mt-4">
                             <span class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-xs font-semibold py-2 px-3 rounded-full">PHP</span>
