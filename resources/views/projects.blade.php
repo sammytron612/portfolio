@@ -20,7 +20,7 @@
             <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
                 <div class="flex flex-col lg:flex-row lg:items-start gap-6">
-                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start">
+                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start min-h-[200px] lg:min-h-0">
                         <div class="relative overflow-hidden rounded-lg group">
                             <img class="w-64 h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="{{ asset('storage/seaham.PNG') }}" alt="Screenshot of Claire's Recipes website">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -49,7 +49,7 @@
             <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
                 <div class="flex flex-col lg:flex-row lg:items-start gap-6">
-                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start">
+                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start min-h-[200px] lg:min-h-0">
                         <div class="relative overflow-hidden rounded-lg group">
                             <img class="w-64 h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="{{ asset('storage/AWS_Dashboard.PNG') }}" alt="Screenshot of AWS Cost Dashboard">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -76,7 +76,7 @@
             <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
                 <div class="flex flex-col lg:flex-row lg:items-start gap-6">
-                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start">
+                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start min-h-[200px] lg:min-h-0">
                         <div class="relative overflow-hidden rounded-lg group">
                             <img class="w-64 h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="{{ asset('storage/kb.PNG') }}" alt="Screenshot of Knowledge Base application">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -105,7 +105,7 @@
             <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
                 <div class="flex flex-col lg:flex-row lg:items-start gap-6">
-                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start">
+                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start min-h-[200px] lg:min-h-0">
                         <div class="relative overflow-hidden rounded-lg group">
                             <img class="w-64 h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="{{ asset('storage/claires-recipes.PNG') }}" alt="Screenshot of Claire's Recipes website">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -135,7 +135,7 @@
             <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative p-6 lg:p-8">
                 <div class="flex flex-col lg:flex-row lg:items-start gap-6">
-                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start">
+                    <div class="flex-shrink-0 flex justify-center items-center lg:justify-start lg:items-start min-h-[200px] lg:min-h-0">
                         <div class="relative overflow-hidden rounded-lg group">
                             <img class="w-64 h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="{{ asset('storage/help.jpeg') }}" alt="Screenshot of ITIL Helpdesk Software">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
