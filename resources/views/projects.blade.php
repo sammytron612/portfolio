@@ -33,7 +33,7 @@
                             <span class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-xs font-semibold py-2 px-3 rounded-full">PHP</span>
                             <span class="bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs font-semibold py-2 px-3 rounded-full">Laravel</span>
                             <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-semibold py-2 px-3 rounded-full">JavaScript</span>
-                            <span class="bg-gradient-to-r from-green-500 to-teal-500 text-white text-xs font-semibold py-2 px-3 rounded-full">AlpineJS</span>
+                            <span class="bg-gradient-to-r from-green-500 to-teal-500 text-white text-xs font-semibold py-2 px-3 rounded-full">Livewire</span>
                             <span class="bg-gradient-to-r from-indigo-500 to-blue-500 text-white text-xs font-semibold py-2 px-3 rounded-full">Bootstrap CSS</span>
                         </div>
                     </div>
