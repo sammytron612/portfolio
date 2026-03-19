@@ -2,7 +2,8 @@
 cmds = [
   "composer install --no-dev --optimize-autoloader",
   "npm install",
-  "npm run build"
+  "npm run build",
+  "php artisan storage:link"
 ]
 
 [start]
