@@ -8,17 +8,15 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('code_snippets', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->text('text')->nullable();
-            $table->longText('code');
-            $table->string('type');
+        Schema::table('code_snippets', function (Blueprint $table) {
+            $table->renameColumn('description', 'text');
         });
     }
 
     public function down(): void
     {
-        Schema::dropIfExists('code_snippets');
+        Schema::table('code_snippets', function (Blueprint $table) {
+            $table->renameColumn('text', 'description');
+        });
     }
 };
